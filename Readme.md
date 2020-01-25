@@ -1,0 +1,1 @@
+to run, use "node src/index.js"
