@@ -3,7 +3,7 @@ var extensiveNumberConverter = require('./extensiveNumberConverter')
 
 function converter(number){
 
-    var inputREGEX = /^-?[0-9]\d{0,4}$/;
+    var inputREGEX = /^-?[0-9]\d{0,4}$/;        //TODO: Regex para validar numeros fracionados
     var result = inputREGEX.test(number.id);
 
     if(!result){
