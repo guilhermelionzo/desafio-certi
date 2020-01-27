@@ -3,7 +3,7 @@
 This project is part of the selection process entitled Certi Sapientia. The project consists of an HTTP server that, for each GET request, returns a JSON whose long key is the number
 in full the number sent in the path. Numbers can be in the range **[-99999, 99999]**.
 
-Feel free to 
+Feel free to suggest improvements and new features. :smile:
 
  ## 🏁 Getting Started
 
