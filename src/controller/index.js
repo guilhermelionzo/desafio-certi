@@ -7,7 +7,7 @@ function converter(number){
     var result = inputREGEX.test(number.id);
 
     if(!result){
-        return {message:"The input number "+number.id+" is greather than 99999 or is divergent from the standard"}
+        return {message:"The input number "+number.id+" is greather than |99999| or is divergent from the standard."}
     }
 
     return extensiveNumberConverter(parseFloat(number.id));

@@ -11,7 +11,7 @@ routes.get('/:id',(request,response) =>{
 //ROOT CASE
 routes.get('/',(request,response) =>{
     console.log(">degbug: Invalid Option");
-    return response.json({message:"Invalid option. Please, input a numnber between -99999 and 99999."});
+    return response.json({error:"Invalid option. Please, input a number between -99999 and 99999."});
 });
 
 module.exports = routes;
